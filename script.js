@@ -1,4 +1,5 @@
 "use strict";
+import API_KEY from "./config.js";
 
 const cityDesc = document.querySelector(".city");
 const temperature = document.querySelector(".temp");
