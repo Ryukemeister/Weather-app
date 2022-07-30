@@ -10,8 +10,6 @@ const humid = document.querySelector(".humidity");
 const searchBtn = document.querySelector(".search-button");
 const searchBar = document.querySelector(".search-bar");
 
-const key = "9f6acd100d788e3f987c833cef3f27c7";
-
 const getWeather = async function (cityName) {
   try {
     const response = await fetch(
